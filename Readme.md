@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Rustam Rafaelevic Khamidullin](https://up.htmlacademy.ru/htmlcss/16/user/292979).
+* Студент: [Rustam Rafaelevic Khamidullin 30 age](https://up.htmlacademy.ru/htmlcss/16/user/292979).
 * Наставник: `Неизвестно`.
 
 ---
