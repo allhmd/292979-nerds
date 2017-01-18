@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Rustam Khamidullin](https://up.htmlacademy.ru/htmlcss/16/user/292979).
-* Наставник: `Неизвестно`.
+* Студент: [Рустам Рафаэлевич](https://up.htmlacademy.ru/htmlcss/16/user/292979).
+* Наставник: [Виталий Кулешин](https://htmlacademy.ru/profile/id268493).
 
 ---
 
@@ -12,9 +12,11 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 ### Памятка
 
+
 #### 1. Зарегистрируйтесь на Гитхабе
 
 Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+
 
 #### 2. Создайте форк
 
@@ -33,6 +35,7 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 <img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391902/17d49924-bdfc-11e5-8864-05fbcbddbb90.jpg">
 
 Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+
 
 #### 4. Начинайте обучение!
 
