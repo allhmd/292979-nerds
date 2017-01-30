@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Рустам Рафаэлевич](https://up.htmlacademy.ru/htmlcss/16/user/292979).
+* Студент: [Рустам Рафаэлевич!](https://up.htmlacademy.ru/htmlcss/16/user/292979).
 * Наставник: [Виталий Кулешин](https://htmlacademy.ru/profile/id268493).
 
 ---
