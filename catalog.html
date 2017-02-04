@@ -1,56 +1,71 @@
-<iDOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
    <head>
-      <title>Католог</title>
       <meta charset="utf-8">
+      <title>Католог</title>
       <link rel="stylsheet" type="text" href="css/style.css">
    </head>
    <body>
       <header class="main-header">
-         <div class="conteiner">
-         <div class="logo">
-           <a href="/Users/rus/Desktop/Сайдинг/292979-nerds/index.html"><img src="/Users/rus/Desktop/Сайдинг/292979-nerds/img/nerds-logo копия.png" width="80" height="50" alt="lorem"></a>
+         <div class="canteiner">
+            <div class="logo">
+               <a href="/Users/rus/Desktop/Сайдинг/292979-nerds/index.html"><img src="/Users/rus/Desktop/Сайдинг/292979-nerds/img/nerds-logo копия.png" width="80" height="50" alt="lorem"></a>
+            </div>
+            <nav class="navigation">
+               <ul>
+                  <li><a href="/Users/rus/Desktop/Сайдинг/292979-nerds/catalog.html">Студия</a></li>
+                  <li><a href="#">Клиенты</a></li>
+                  <li><a href="#">Магазин</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Корзина</a></li>
+               </ul>
+            </nav>
          </div>
-         <nav class="navigation">
-            <ul>
-               <li><a href="/Users/rus/Desktop/Сайдинг/292979-nerds/catalog.html">Студия</a></li>
-               <li><a href="#">Клиенты</a></li>
-               <li><a href="#">Магазин</a></li>
-               <li><a href="#">Контакты</a></li>
-               <li><a href="#">Корзина</a></li>
-            </ul>
-         </nav>
          <div class="title">
-         <h1>Магазин готовых шаблонов</h1>
-         </div
-         <main>
-            <div class="left">
-               <div class="function">
-                  <p>Стоимость</p>
-               </div>
-               <input type="range" min="0" max="1500" step="1" value="50">
-               <form action="filter">
-                  <p><b>Сетка:</b></p>
-                  <p><input type="checkbox" id="check1"><label for="check1">Адаптивная</label><Br>
-                     <input type="checkbox" id="check2"><label for="check2">Фиксированная</label><Br>
-                     <input type="checkbox" id="check3"><label for="check3">Резиновая</label><Br>
-               </form>
-               <form action="filter2">
-                  <p><b>Особености:</b></p>
-                  <p><input type="checkbox" id="check1"><label for="check1">Слайдер</label><Br>
-                     <input type="checkbox" id="check2"><label for="check2">Блок приемущества</label><Br>
-                     <input type="checkbox" id="check3"><label for="check3">Новости</label><Br>
-                     <input type="checkbox" id="check2"><label for="check2">Галерея</label><Br>
-                     <input type="checkbox" id="check3"><label for="check3">Корзина</label><Br>
-               </form>
-               <button>Показать</button>
-            </div>
-            <div class="riht">
-               <div class="function">
-                  <p>Сортировать</p>
-               </div>
-            </div>
-         </main>
+            <h1>Магазин готовых шаблонов</h1>
+         </div>
       </header>
+      <main>
+         <div class="left">
+            <div class="function">
+               <h4>Стоимость</h4>
+               <input type="range" min="0" max="1500" step="1" value="500">
+               <input type="text" name="0" value="">
+               <input type="text" name="1500" value="">
+            </div>
+            <form action="filter1">
+               <h4>Сетка:</h4>
+               <p><input type="radio" id="check1"><label for="check1">Адаптивная</label></li></br>
+                  <input type="radio" id="check2"><label for="check2">Фиксированная</label></li></br>
+                  <input type="radio" id="check3"><label for="check3">Резиновая</label></li></br>
+               </p>
+            </form>
+            <form action="filter2">
+               <h4>Особености:</h4>
+               <p> <input type="checkbox" id="check1"><label for="check1">Слайдер</label></br>
+                  <input type="checkbox" id="check2"><label for="check2">Блок приемущества</label></br>
+                  <input type="checkbox" id="check3"><label for="check3">Новости</label></br>
+                  <input type="checkbox" id="check2"><label for="check2">Галерея</label></br>
+                  <input type="checkbox" id="check3"><label for="check3">Корзина</label></br>
+               </p>
+               </ul>
+            </form>
+            <button>Показать</button>
+         </div>
+         <div class="right">
+            <div class="function">
+               <h4>Сортировать</h4>
+               <div class="setting">
+                  <a href="#">По цене</a>
+                  <a href="#">По типу</a>
+                  <a href="#">По названию</a>
+                  <a href="#"><img src="/Users/rus/Desktop/Сайдинг/292979-nerds/img/sort-up.png"/></a>
+                  <a href="#"><img src="/Users/rus/Desktop/Сайдинг/292979-nerds/img/sort-down.png"/></a>
+               </div>
+            </div>
+            <img src="/Users/rus/Desktop/Сайдинг/292979-nerds/img/img-sedona.jpg.png" alt="" />
+            <img src="/Users/rus/Desktop/Сайдинг/292979-nerds/img/img-pink.jpg.png" alt="" />
+         </div>
+      </main>
    </body>
 </html>
