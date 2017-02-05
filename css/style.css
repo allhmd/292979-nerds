@@ -1,4 +1,7 @@
-
-  .main-navigation ul {
-      width: 100px;
+.main-header{
+  margin-left: 200px;
+}
+  .main-navigation p {
+      margin-left: 600px;
+      padding-top: 1px;
 }
