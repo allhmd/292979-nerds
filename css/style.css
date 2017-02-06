@@ -1,7 +1,10 @@
+.container{
+  width: 1400px;
+}
 .main-header{
   margin-left: 200px;
 }
   .main-navigation p {
-      margin-left: 600px;
-      padding-top: 1px;
+      margin: auto;
+      padding: 0px 0px 100px 300px;
 }
