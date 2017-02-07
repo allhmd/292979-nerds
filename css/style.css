@@ -1,10 +1,7 @@
-.container{
-  width: 1400px;
-}
-.main-header{
-  margin-left: 200px;
-}
-  .main-navigation p {
-      margin: auto;
+.main-navigation p {
+      margin-top: 2px;
       padding: 0px 0px 100px 300px;
+}
+.index-logo{
+  padding-top: 40px;
 }
