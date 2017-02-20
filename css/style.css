@@ -1,7 +1,25 @@
-.main-navigation p {
-      margin-top: 2px;
-      padding: 0px 0px 100px 300px;
+body {
+ background-image: url(images/bg.jpg);
+ background-color: #c7b39b;
 }
+header{
+  width: 1000px;
+  margin: 0 auto;
+}
+.container{
+  width: 100%;
+  background-color: red;
+}
+
 .index-logo{
-  padding-top: 40px;
+  width: 100px;
+  padding-top: 0px;
+  background-color: green;
+  float: left;
 }
+.main-navigation {
+  margin-bottom: 80px;
+      margin-left: 500px;
+      background-color: white;
+      float: left;
+]
