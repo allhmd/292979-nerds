@@ -1,0 +1,60 @@
+body {
+ background-image: url(images/bg.jpg);
+ background-color: #c7b39b;
+}
+header{
+  width: 1000px;
+  margin: 0 auto;
+}
+.container{
+  width: 100%;
+  background-color: red;
+  display:inline-block;
+}
+
+.index-logo{
+  width: 20%;
+  padding-top: 0px;
+  background-color: green;
+  float: left;
+}
+
+.menu {
+    text-align: center;/*все строчные элементы будут выравниваться по центру*/
+    float: left;
+    width: 60%;
+
+}
+.basket {
+  text-align: right;
+  float: left;
+  width: 20%;
+}
+ul {
+    display: inline-block; /*превращаем элемент в строчный блок*/
+    //display: inline; /*для IE6-7 превращаем элемент в строчный*/
+    zoom: 1; /*присваиваем ему layout*/
+    /*font-size: 12px;устанавливаем размер шрифта*/
+}
+li {
+    float: left;/*делаем блок плавающим*/
+    display: inline;/*убираем двойные отступы у плавающих блоков в IE6*/
+    margin-right: 4px;
+    /*width: 23px;*/
+    /*height: 22px;*/
+    overflow: hidden;
+    text-align: center;/*для того, чтобы центрировать надписи в элементах списка по горизонтали*/
+    color: #fff;
+    font-weight: bold;
+    background: url(/path-to/nvigatsiya-def.gif) no-repeat;
+    cursor: default;/*для активной страницы*/
+    line-height: 22px;/*для того, чтобы центрировать надписи в элементах списка по вертикали*/
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+  /*  height: 22px;*/
+    background: url(/path-to/nvigatsiya-href.gif) no-repeat;
+}

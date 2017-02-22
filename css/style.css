@@ -9,17 +9,16 @@ header{
 .container{
   width: 100%;
   background-color: red;
+  float: left;
 }
 
 .index-logo{
   width: 100px;
   padding-top: 0px;
   background-color: green;
-  float: left;
 }
 .main-navigation {
   margin-bottom: 80px;
       margin-left: 500px;
       background-color: white;
-      float: left;
 ]
